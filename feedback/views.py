@@ -9,7 +9,7 @@ def index(request):
         phone = request.POST.get("phone")
         desc = request.POST.get("desc")
 
-        feed = Feedback(name = name, email = email, phone = phone, date = datetime.today())
+        feed = Feedback(name = name, email = email, phone = phone, desc = desc ,date = datetime.today())
         feed.save()
 
     return render(request, 'index.html')
