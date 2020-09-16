@@ -8,7 +8,7 @@ class Feedback(models.Model):
     date = models.DateField()
 
     def __str__(self):
-        return self.name,self.desc
+        return self.name
     
 
 # Create your models here.
