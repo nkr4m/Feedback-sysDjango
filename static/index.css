@@ -1,0 +1,35 @@
+body{
+    background-color  : rgb(19, 19, 20);
+
+}
+
+
+
+.heading{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: -20px;
+    letter-spacing: 4px;
+    position: relative;
+    top:30px;
+}
+
+.sub_head{
+    color: white;
+    font-size: 200%;
+    position: relative;
+    left: 59.5%;
+    top:30px;
+}
+
+.form_container{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    top:-10px;
+    width: 30%;
+    position: relative;
+    left: 29%;
+}
